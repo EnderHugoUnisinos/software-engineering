@@ -16,7 +16,7 @@ aside button {
 }
 .user {
     background-color: #FFF;
-    padding: 10px;
+    margin: 20px;
     display: flex;
 }
 .user img{
