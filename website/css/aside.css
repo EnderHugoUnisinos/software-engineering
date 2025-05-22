@@ -1,0 +1,98 @@
+aside {
+    background-color: #FFF;
+    position: fixed;
+    width: 239px;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    border-right: 1px solid #000;
+}
+aside button {
+    width: 100%;
+}
+.user {
+    background-color: #FFF;
+    padding: 10px;
+    display: flex;
+}
+.user img{
+    width: 44px;
+    border-radius: 100%;
+}
+.user-profile {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.user p {
+    font-size: 12px;
+    line-height: 12px;
+}
+#user-name {
+    font-weight: bold;
+}
+#user-role {
+    color: #555;
+}
+#home {
+    background-color: #eee;
+    color: #000;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    height: 50px;
+    text-align: center;
+}
+#home:hover {
+    background-color: #fff;
+}
+.accordion {
+    background-color: #eee;
+    color: #000;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+}
+.accordion .left .right {
+    width: 10%;
+}
+.accordion .middle {
+    width: 90%;
+    text-align: center;
+}
+.active, .accordion:hover {
+    background-color: #fff;
+}
+.panel {
+    padding: 0px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.panel button {
+    background-color: #D9D9D9;
+    color: #000000;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+}
+.panel button:hover {
+    background-color: #bebebe;
+}

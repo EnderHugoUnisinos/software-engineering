@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    padding: 2px
+}
+body {
+    display: flex;
+}
+body .content {
+    width: 100%;
+}
+main {
+    margin-left: 240px;
+    display: flex;
+    flex-direction: column;
+    height: 722px;
+    background-color: #ccc;
+    padding: 10px;
+}
