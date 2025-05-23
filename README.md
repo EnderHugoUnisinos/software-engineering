@@ -3,20 +3,20 @@
 Repository containing files and projects related to the course of software engineering.
 
 Website\
-| css\
-|  |styles.css\
-|  |header.css\
-|  |aside.css\
+| css/\
+|  | styles.css\
+|  | header.css\
+|  | aside.css\
 |\
-| img\
+| img/\
 |  | user.png # placeholder\
 |\
-|  js\
+|  js/\
 |  | accordion.js\
 |\
-| pages\
-|  | administrador\
-|  | funcionario\
-|  | usuario\
+| pages/\
+|  | administrador/\
+|  | funcionario/\
+|  | usuario/\
 |\
-| index.html \
+| index.html
