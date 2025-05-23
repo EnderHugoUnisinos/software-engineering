@@ -11,6 +11,7 @@ header .logo {
     width: 20%;
 }
 header .page {
+    font-style: italic;
     text-align: center;
     width: 70%;
 }
