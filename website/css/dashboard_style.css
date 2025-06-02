@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    padding: 2px
+}
+body {
+    display: flex;
+}
+body .content {
+    position: absolute;
+    left: 240px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-shade);
+}
