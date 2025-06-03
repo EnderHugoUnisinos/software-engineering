@@ -9,7 +9,7 @@ aside {
     display: flex;
     overflow-x: hidden;
     flex-direction: column;
-    border-right: 1px solid var(--light-contrast);
+    border-right: 1px solid var(--light-shade);
 }
 aside a {
     width: 100%;
@@ -105,5 +105,9 @@ aside a {
 }
 .panel a:hover {
     background-color: var(--primary-shade);
+    color: var(--dark-contrast)
+}
+.panel .active {
+    background-color: var(--medium-tint);
     color: var(--dark-contrast)
 }

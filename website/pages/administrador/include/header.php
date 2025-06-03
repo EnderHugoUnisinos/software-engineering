@@ -5,7 +5,7 @@
         </a>
     </div>
     <div class="page">
-        <?php print($nome_pagina) ?>
+        <?php echo $nome_pagina; ?>
     </div>
     <div class="buttons">
         <a href="">
@@ -15,4 +15,9 @@
             <i class="fa fa-question-circle" aria-hidden="true"></i>
         </a>
     </div>
+    <script>
+        window.updatePageTitle = (title) => {
+        document.getElementById('page-title').textContent = title;
+    };
+    </script>
 </header>

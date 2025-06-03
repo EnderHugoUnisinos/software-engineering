@@ -24,12 +24,14 @@
     }
     
     ?>
-    <link rel="stylesheet" href="<?= $cssPath ?>color-palette.css">
-    <link rel="stylesheet" href="<?= $cssPath ?>dashboard_style.css">
-    <link rel="stylesheet" href="<?= $cssPath ?>aside.css">
-    <link rel="stylesheet" href="<?= $cssPath ?>header.css">
+    <link rel="stylesheet" href="/css/color-palette.css">
+    <link rel="stylesheet" href="/css/content-loader.css">
+    <link rel="stylesheet" href="/css/dashboard/dashboard_style.css">
+    <link rel="stylesheet" href="/css/dashboard/dashboard_header.css">
+    <link rel="stylesheet" href="/css/dashboard/aside.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="<?= $jsPath ?>accordion.js" defer></script>
+    <script type="module" src="<?= $jsPath ?>admin_spa.js"></script>
 </head>
 <body>
     <?php 
@@ -37,12 +39,14 @@
     ?>
     <div class="content">
         <?php
-            $nome_pagina = $page;
+            // Set default page name for initial load
+            $nome_pagina = 'Dashboard';
             include 'include/header.php';
-        
-            include "section/{$section}/{$page}.php";
         ?>
-        
+        <main class="content-container" style="position:relative;">
+            <!-- SPA content will be injected here -->
+            <div class="loading">Carregando conteúdo...</div>
+        </main>
     </div>
 </body>
 </html>

@@ -1,0 +1,144 @@
+main {
+    padding: 10vh 40vh 5vh 40vh;
+}
+
+.main-card {
+    background-color: var(--light);
+    border: 1px solid var(--light-shade);
+    padding: 3vh;
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.banner-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}   
+.login-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-card h1 {
+    text-align: center;
+}
+
+.login-card {
+    margin: 4vh;
+    padding: 4vh;
+    border: 1px solid var(--light-shade);
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.login-header {
+    text-align: center;
+}
+.login-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+}
+#loginForm {
+    text-align: center;
+}
+
+.login-body input{
+    margin-top: 20px;
+}
+.login-card input {
+    width: 100%;
+}
+.separator {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 80%;
+    position: relative;
+    text-align: center;
+}
+.line {
+    border-top: 1px solid var(--light-shade);
+    width: 100%;
+}
+.separator span {
+    position: absolute;
+    text-transform: uppercase;
+    color: #BBB;
+    top: -6px;
+    height: 30px;
+    width: 40px;
+    background-color: var(--light);
+    margin-left: -25px;
+    font-size: 15px;
+}
+
+
+.btn[type=submit] {
+    margin-top: 3vh;
+    width: 100%;
+    background-color: var(--light);
+    border: 1px solid var(--light-shade);
+    border-radius: 1vh;
+    height: 4vh;
+}
+
+.forgot {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    text-align: right;
+    width: 100%;
+}
+
+footer {
+    padding-left: 25vh;
+    padding-right: 25vh;
+    padding-top: 2vh;
+    border-top: 1px solid var(--light-shade);
+    display: flex;
+}
+footer .left, footer .middle, footer .right {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+footer .left {
+    line-height: 4vh;
+}
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contato .info {
+    font-size: 12px;
+    line-height: 1vh;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+.icons a {
+    font-size: 4vh;
+    margin: 0vh 2vh 0vh 2vh;
+}
+.gov-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}

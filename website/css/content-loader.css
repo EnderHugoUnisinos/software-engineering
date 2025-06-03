@@ -1,0 +1,65 @@
+.loading 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    height: 10vh;
+    width: 100%;
+    
+    background-color: var(--light);
+    border: 1px solid var(--light-shade);
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--light-shade);
+}
+.error 
+{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    height: 95vh;
+    width: 100%;
+    
+    background-color: var(--danger-shade);
+    border: 1px solid var(--light-shade);
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--dark-contrast);
+}
+.error div {
+    display: flex;
+    flex-direction: column;
+    color: var(--danger);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: var(--light);
+    height: 25vh;
+    width: 30%;
+    padding: 4vh;
+    border-radius: 2vh;
+}
+.error button
+{
+    cursor: pointer;
+    margin: 3vh;
+    height: 4vh;
+    border-radius: 1vh;
+    width: 70%;
+    background-color: var(--warning);
+    border: 0;
+}
+.error button:hover
+{
+    background-color: var(--warning-shade);
+}

@@ -25,3 +25,9 @@ main {
     flex-direction: column;
     background-color: var(--light-shade);
 }
+.content-container{
+    flex: 1;
+    z-index: 1;
+    position: relative;
+    top: 47px;
+}
