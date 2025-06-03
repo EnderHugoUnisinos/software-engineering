@@ -43,6 +43,9 @@ header .buttons a:hover {
     background-color: var(--light-shade);
     width: 40%;
 }
+header .buttons .active {
+    background-color: var(--light-tint);
+}
 header .profile {
     width: 30%;
 }

@@ -1,7 +1,7 @@
 header {
     color: var(--light-contrast);
-    background-color: var(--light);
-    z-index: 2;
+    background-color: var(--light-tint);
+    z-index: 1;
     position: fixed;
     display: flex;
     max-width: 100%;
