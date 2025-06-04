@@ -14,8 +14,8 @@
         <div class="center"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
     </button>
     <div class="panel">
-        <a href="">Cadastrar novo residente</a>
-        <a href="#">Consultar residentes</a>
+        <a href="#" data-page="residentes/cadastro">Cadastrar novo residente</a>
+        <a href="#" data-page="residentes/consulta">Consultar residentes</a>
     </div>
     <button class="accordion">
         <div class="left"><i class="fa fa-clock-o" aria-hidden="true"></i> </div>
@@ -23,8 +23,8 @@
         <div class="center"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
     </button>
     <div class="panel">
-        <a href="#">Gerenciar novo atendimento</a>
-        <a href="#">Consultar atendimentos</a>
+        <a href="#" data-page="atendimentos/cadastro">Gerenciar novo atendimento</a>
+        <a href="#" data-page="atendimentos/consulta">Consultar atendimentos</a>
     </div>
     <button class="accordion">
         <div class="left"><i class="fa fa-book" aria-hidden="true"></i> </div>
@@ -32,8 +32,8 @@
         <div class="center"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
     </button>
     <div class="panel">
-        <a href="#">Cadastrar novo item</a>
-        <a href="#">Atualizar registro de um item</a>
-        <a href="#">Consultar estoque</a>
+        <a href="#" data-page="estoque/cadastro">Cadastrar novo item</a>
+        <a href="#" data-page="estoque/atualiza">Atualizar registro de um item</a>
+        <a href="#" data-page="estoque/consulta">Consultar estoque</a>
     </div>
 </aside>
