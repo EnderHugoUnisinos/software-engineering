@@ -272,6 +272,9 @@ main {
 .margin {
     margin: 3vh;
 }
+.margin-top {
+    margin-top: 3vh;
+}
 
 .text-center {
     text-align: center  ;
