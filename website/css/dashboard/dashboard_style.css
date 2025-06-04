@@ -117,12 +117,37 @@ main {
 }
 .form-group input {
     height: 3vh;
+    padding: 4px;
     order: 2; /* Input comes after label */
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
     border-radius: 5px;
     border: 1px solid var(--light-shade);
+}
+.form-group input[type="submit"] {
+    cursor: pointer;
+    height: 4vh;
+    font-weight: bold;
+    background-color: var(--primary);
+    color: var(--dark-contrast);
+}
+.form-group input[type="submit"]:hover {
+    background-color: var(--primary-shade);
+    color: var(--dark-contrast);
+}
+.form-group textarea {
+    height: 3vh;
+    order: 2; /* Input comes after label */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--light-shade);
+    max-width: 74vh;
+    min-width: 74vh;
+    min-height: 8vh;
+    max-height: 40vh;
 }
 .max-height {
     max-height: 100%;
@@ -160,7 +185,8 @@ main {
     margin-top: 2vh;
     margin-bottom: 1vh;
     height: 22vh;
-    border-radius: 50vh;
+    width: 22vh;
+    border-radius: 100vh;
     background-color: var(--dark-contrast);
     border: 1px solid var(--light-shade);
 }
@@ -278,4 +304,22 @@ main {
 
 .text-center {
     text-align: center  ;
+}
+
+.form-group .select {
+    order: 1;
+    width: 100%;
+}
+.form-group .select select {
+    display: flex;
+    height: 4vh;
+    width: 100%;
+    appearance: none;
+    font-size: 1.00rem;
+    padding: 6px;
+    background-color: var(--dark-contrast);
+    border: 1px solid var(--light-shade);
+    border-radius: 0.25rem;
+    color: var(--light-contrast);
+    cursor: pointer;
 }

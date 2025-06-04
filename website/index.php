@@ -33,6 +33,7 @@ $routes = [
     '/administrador' => 'pages/administrador/adm_home.php',
     '/funcionario' => 'pages/funcionario/func_home.php',
     '/usuario' => 'pages/usuario/user_home.php',
+    '/residente' => 'pages/usuario/user_home.php',
     '/administrador/([a-z0-9_-]+)' => 'admin_section_handler.php?section=$1',
     '/funcionario/([a-z0-9_-]+)' => 'func_section_handler.php?section=$1'
 ];

@@ -35,7 +35,7 @@
         </button>
         <div class="panel">
             <a href="#" data-page="estoque/cadastro">Cadastrar novo item</a>
-            <a href="#" data-page="estoque/atualizacao">Atualizar registro de um item</a>
+            <a href="#" data-page="estoque/atualiza">Atualizar registro de um item</a>
             <a href="#" data-page="estoque/consulta">Consultar estoque</a>
             <a href="#" data-page="estoque/relatorio">Relatorios de estoque</a>
         </div>

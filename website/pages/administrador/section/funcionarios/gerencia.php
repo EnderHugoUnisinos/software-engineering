@@ -1,26 +1,32 @@
 <div class="loaded-page">
     <div class="card half-width">
         <form action="#" class="margin">
-            <div class="col-2 ">   
+           <div class="col-2 ">   
                 <div class="row">
                     <div class="form-group">
-                        <label for="lnome">Nome de usuario<span>*</span></label>
+                        <label for="lid">ID do funcionario<span>*</span></label>
+                        <input type="text"id="lid" name="lid">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="lnome">Nome de usuario</label>
                         <input type="text"id="lnome" name="lnome">
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group">
-                        <label for="lemail">Email<span>*</span></label>
+                        <label for="lemail">Email</label>
                         <input type="text" id="lemail" name="lemail">
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group">
-                        <label for="ltelefone">Telefone<span>*</span></label>
-                        <input type="text" id="ltelefone" name="ltelefone">
+                        <label for="ltelefone">Telefone</label>
+                        <input type="tel" id="ltelefone" name="ltelefone"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
                     </div>
                     <div class="form-group">
-                        <label for="lcpf">CPF<span>*</span></label>
+                        <label for="lcpf">CPF</label>
                         <input type="text" id="lcpf" name="lcpf">
                     </div>
                 </div>

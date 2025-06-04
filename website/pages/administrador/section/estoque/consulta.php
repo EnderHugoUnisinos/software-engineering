@@ -10,7 +10,7 @@
                             <select name="criterio" id="criterio">
                                 <option value="0">Pesquisar por...</option>
                                 <option value="1">Nome</option>
-                                <option value="3">Tipo</option>
+                                <option value="2">Tipo</option>
                             </select>
                         </div>
                     </form>
