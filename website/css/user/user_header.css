@@ -70,6 +70,7 @@ header .profile {
     width: 44px;
     border-radius: 100%;
     border: 1px solid var(--light-shade);
+    background-color: var(--light);
 }
 .user-profile {
     margin-left: 5px;
