@@ -42,7 +42,61 @@
                     </div>
                 </div>
                 <div class="col-5">
-                    <div class="results-container"></div>
+                    <div class="results-container">
+                        <div class="row search-title">
+                            <div class="padding-result row">
+                                <p>Nome do item</p>
+                                <p>Quantidade</p>
+                                <p>Unidade</p>
+                                <p>ID</p>
+                            </div>
+                        </div>
+                        <div class="row search-result">
+                            <div class="padding-result row">
+                                <p>Nome do item</p>
+                                <p>Quantidade</p>
+                                <p>Unidade</p>
+                                <p>ID</p>
+                                <button class="btn">Visualizar</button>
+                            </div>
+                        </div>
+                        <div class="row search-result">
+                            <div class="padding-result row">
+                                <p>Nome do item</p>
+                                <p>Quantidade</p>
+                                <p>Unidade</p>
+                                <p>ID</p>
+                                <button class="btn">Visualizar</button>
+                            </div>
+                        </div>
+                        <div class="row search-result">
+                            <div class="padding-result row">
+                                <p>Nome do item</p>
+                                <p>Quantidade</p>
+                                <p>Unidade</p>
+                                <p>ID</p>
+                                <button class="btn">Visualizar</button>
+                            </div>
+                        </div>
+                        <div class="row search-result">
+                            <div class="padding-result row">
+                                <p>Nome do item</p>
+                                <p>Quantidade</p>
+                                <p>Unidade</p>
+                                <p>ID</p>
+                                <button class="btn">Visualizar</button>
+                            </div>
+                        </div>
+                        <div class="row search-result">
+                            <div class="padding-result row">
+                                <p>Nome do item</p>
+                                <p>Quantidade</p>
+                                <p>Unidade</p>
+                                <p>ID</p>
+                                <button class="btn">Visualizar</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
