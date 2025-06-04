@@ -24,6 +24,7 @@ aside a {
 }
 .user img{
     width: 44px;
+    border: 1px solid var(--light-shade);
     border-radius: 100%;
 }
 .user-profile {

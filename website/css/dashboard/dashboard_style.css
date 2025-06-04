@@ -34,7 +34,7 @@ main {
     top: 48px;
 }
 
-.cadastro {
+.loaded-page {
     height: 94.5vh;
     display: flex;
     align-items: center;
@@ -45,9 +45,13 @@ main {
     background-color: var(--light);
     display: flex;
     flex-direction: row;
-    padding: 5vh;
+    padding: 0;
+    padding-top: 5vh;
     width: 1000vh;
     width: fit-content;
+    min-width: 0;
+    height: fit-content;
+    max-height: 100%;
     border-radius: 1vh;
     border: 1px solid var(--light-shade);
 }
@@ -59,23 +63,34 @@ main {
 .row {
     width: 100%;
     display: flex;
-    margin: 1vh;
+    flex-direction: row;
+    position: relative;
 }
-.col-1 {
-    flex: 1;
-    margin: 10px;
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6 {
+    display: flex;
+    flex-direction: column;
     height: 100%;
     min-width: 0;
     box-sizing: border-box;
+} 
+.col-1 {
+    flex: 1;
 }
 .col-2 {
     flex: 2;
-    margin: 10px;
-    height: 100%;
-    min-width: 0;
-    box-sizing: border-box;
 }
-
+.col-3 {
+    flex: 3;
+}
+.col-4 {
+    flex: 4;
+}
+.col-5 {
+    flex: 5;
+}
+.col-6 {
+    flex: 6;
+}
 .form-group {
     flex: 1;
     margin-left: 2vh;
@@ -85,7 +100,11 @@ main {
     flex-direction: column; 
     margin-bottom: 1rem; 
 }
-
+.form-group input[type="checkbox"]{
+    margin-left: 1vh;
+    position: relative;
+    top: -3px;
+}
 .form-group label {
     order: 1; 
     margin-bottom: 0.5rem;
@@ -106,12 +125,154 @@ main {
     border: 1px solid var(--light-shade);
 }
 .max-height {
-    height: 100%;
+    max-height: 100%;
+}
+.half-width {
+    max-width: 50%;
 }
 .dados {
-    top: 10px;
-    background-color: var(--light);
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 2vh;
+    order: 2;
+    background-color: var(--dark-contrast);
     border: 1px solid var(--light-shade);
-    height: 100%;
     border-radius: 2px;
+    height: 50vh;
+}
+.documentos {
+    display: flex;
+    padding: 2vh;
+    align-items: end;
+    justify-content: end;
+    order: 2;
+    background-color: var(--dark-contrast);
+    border: 1px solid var(--light-shade);
+    min-height: 15vh;
+    height: 18vh;
+    border-radius: 2px;
+}
+.form-picture {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    height: 22vh;
+    border-radius: 50vh;
+    background-color: var(--dark-contrast);
+    border: 1px solid var(--light-shade);
+}
+.dados button, .documentos button, .form-picture button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 5vh;
+    background-color: var(--success);
+    border: 0;
+    border-radius: 1vh;
+    color: var(--dark-contrast);
+    font-size: 21px;
+    font-weight: bold;
+}
+.dados button:hover, .documentos button:hover, .form-picture button:hover {
+    background-color: var(--success-shade);
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.search-container input[type=text] {
+  padding: 6px;
+  font-size: 17px;
+  border: 1px solid var(--light-shade);
+  width: 60%;
+}
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-right: 16px;
+  background: var(--primary);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: var(--dark-contrast);
+}
+.search-container button:hover {
+  background: var(--primary-shade);
+}
+
+.custom-select::before,
+.custom-select::after {
+  --size: 0.3rem;
+  position: absolute;
+  content: "";
+  right: 1rem;
+  pointer-events: none;
+}
+
+.custom-select::after {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-top: var(--size) solid black;
+  top: 30%;
+  right: 3%;
+}
+
+.justify-end {
+    display: flex;
+    justify-content: end;
+}
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.custom-select {
+    min-width: 15vh;
+    margin: 0 3vh;
+    width: 17vh;
+}
+.custom-select select {
+    appearance: none;
+    width: 100%;
+    height: 40px;
+    font-size: 1.00rem;
+    padding: 6px;
+    background-color: var(--dark-contrast);
+    border: 1px solid var(--light-shade);
+    border-radius: 0.25rem;
+    color: var(--light-contrast);
+    cursor: pointer;
+}
+
+.bottom-border {
+    border-bottom: 1px solid var(--light-shade);
+}
+
+.padding {
+    padding-bottom: 3vh;
+}
+
+.results-container {
+    background-color: var(--dark-contrast);
+    height: 60vh;
+    border-left: 1px solid var(--light-shade);
+}
+
+.margin {
+    margin: 3vh;
+}
+
+.text-center {
+    text-align: center  ;
 }

@@ -57,7 +57,8 @@ header .profile {
     text-decoration: none;
     border-radius: 5vh;
     width: 22vh;
-    padding: 0.2vh;
+    padding: 0.3vh;
+    padding-top: 0.5vh;
     align-items: center;
     padding-left: 1vh;
     transition: 0.4s;
@@ -68,6 +69,7 @@ header .profile {
 .profile a img{
     width: 44px;
     border-radius: 100%;
+    border: 1px solid var(--light-shade);
 }
 .user-profile {
     margin-left: 5px;

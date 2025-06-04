@@ -194,5 +194,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         });
     </script>
+    <script>
+        // Script para autopreenchimento e submissão
+        document.addEventListener('DOMContentLoaded', function() {
+        const govBrButton = document.querySelector('br-sign-in');
+        
+        if(govBrButton) {
+            govBrButton.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('email').value = 'user@exemplo.com';
+            document.getElementById('password').value = 'user123';
+            document.getElementById('loginForm').submit();
+            });
+        }
+        });
+    </script>
 </body>
 </html>
