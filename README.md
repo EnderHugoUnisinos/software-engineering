@@ -5,24 +5,28 @@ Repository containing files and projects related to the course of software engin
 Website
 │   index.html
 │
-├───css
-│       aside.css
-│       header.css
-│       styles.css
+├───/css
+│    │  aside.css
+│    │  header.css
+│    ├──/shared
+│    ├──/user
+│    └──/dashboard
 │
-├───img
+├───/img
 │       user.png
 │
-├───js
+├───/js
 │       accordion.js
 │
-└───pages
-    ├───administrador
-    │       adm_home.html
+└───/pages
+    ├───/administrador
+    │    │  adm_home.php
+    │    └──/section
     │
-    ├───funcionario
-    │       func_home.html
+    ├───/funcionario
+    │    │  func_home.php
+    │    └──/section
     │
     └───usuario
-            user_home.html
+            user_home.php
 ```
